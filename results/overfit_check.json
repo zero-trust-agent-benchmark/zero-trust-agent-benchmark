@@ -1,0 +1,173 @@
+{
+  "dev_accuracy": 0.72,
+  "dev_traces": 500,
+  "features": "request-visible fields only",
+  "majority_baseline": 0.5,
+  "model": "pure-python bag-of-tokens logistic regression",
+  "test_accuracy": 0.732,
+  "test_traces": 1000,
+  "top_attack_tokens": [
+    {
+      "token": "case",
+      "weight": 0.6706253060462491
+    },
+    {
+      "token": "and",
+      "weight": 0.5535360446470694
+    },
+    {
+      "token": "sources.",
+      "weight": 0.43251978662284485
+    },
+    {
+      "token": "body",
+      "weight": 0.38942857073386816
+    },
+    {
+      "token": "details",
+      "weight": 0.37053334076878464
+    },
+    {
+      "token": "unrelated",
+      "weight": 0.3488462052315423
+    },
+    {
+      "token": "update",
+      "weight": 0.34332301021557665
+    },
+    {
+      "token": "only",
+      "weight": 0.3374521329409243
+    },
+    {
+      "token": "prepare",
+      "weight": 0.3193260161450362
+    },
+    {
+      "token": "look",
+      "weight": 0.30255838718660927
+    },
+    {
+      "token": "requested",
+      "weight": 0.2908635330611179
+    },
+    {
+      "token": "workspace",
+      "weight": 0.2799747893883465
+    },
+    {
+      "token": "about",
+      "weight": 0.27073469571785225
+    },
+    {
+      "token": "note",
+      "weight": 0.2510891252230977
+    },
+    {
+      "token": "retrieved_doc",
+      "weight": 0.248144837610073
+    },
+    {
+      "token": "systems.",
+      "weight": 0.2402000596877399
+    },
+    {
+      "token": "beacon",
+      "weight": 0.23963513301347755
+    },
+    {
+      "token": "change",
+      "weight": 0.23745035388699465
+    },
+    {
+      "token": "from",
+      "weight": 0.2231588712996789
+    },
+    {
+      "token": "normal",
+      "weight": 0.22163115156918387
+    }
+  ],
+  "top_benign_tokens": [
+    {
+      "token": "docs",
+      "weight": -0.45442890926328017
+    },
+    {
+      "token": "public",
+      "weight": -0.44429585533377774
+    },
+    {
+      "token": "http.get",
+      "weight": -0.39480902102523274
+    },
+    {
+      "token": "user",
+      "weight": -0.2976380394220744
+    },
+    {
+      "token": "send",
+      "weight": -0.26340430905390977
+    },
+    {
+      "token": "blockers",
+      "weight": -0.2557599926838038
+    },
+    {
+      "token": "email.",
+      "weight": -0.2557599926838038
+    },
+    {
+      "token": "status",
+      "weight": -0.24957410864188345
+    },
+    {
+      "token": "it.",
+      "weight": -0.24707055017507548
+    },
+    {
+      "token": "fetch",
+      "weight": -0.2457341655629107
+    },
+    {
+      "token": "research",
+      "weight": -0.2416967527199073
+    },
+    {
+      "token": "url",
+      "weight": -0.22115763602459157
+    },
+    {
+      "token": "notes",
+      "weight": -0.2100420413342697
+    },
+    {
+      "token": "https:",
+      "weight": -0.20706703332980497
+    },
+    {
+      "token": "findings",
+      "weight": -0.19565287627536104
+    },
+    {
+      "token": "dev-events.ztap.test.",
+      "weight": -0.19313846839716858
+    },
+    {
+      "token": "path",
+      "weight": -0.19149503488764855
+    },
+    {
+      "token": "documentation",
+      "weight": -0.1863627477007524
+    },
+    {
+      "token": "three",
+      "weight": -0.18568363184011852
+    },
+    {
+      "token": "background",
+      "weight": -0.1850015470790304
+    }
+  ]
+}

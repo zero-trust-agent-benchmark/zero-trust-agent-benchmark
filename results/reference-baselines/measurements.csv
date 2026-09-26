@@ -1,0 +1,9 @@
+baseline,block_rate,in_policy_block_rate,out_of_policy_block_rate,false_positive_rate,leak_count,mean_ms
+allow_all,0.0,0.0,0.0,0.0,100,1930.7482466683723
+deny_all,1.0,1.0,1.0,1.0,0,1325.835450007192
+keyword,0.132,0.132,0.132,0.018,100,1650.0617033258702
+allowlist,0.452,0.0,0.904,0.008,50,1672.5611266680062
+posture,0.15,0.0,0.3,0.0,100,1425.5007133295294
+combined,0.724,0.472,0.976,0.026,45,1503.4437699980724
+issued_secret_dlp,0.2,0.2,0.2,0.0,0,1399.9615200038534
+learned_allowlist,0.664,0.4,0.928,1.0,0,2330.8604300022125
