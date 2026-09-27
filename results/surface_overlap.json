@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "benign_arg_key_sets": 45,
+    "benign_destinations": 13,
+    "benign_path_prefixes": 4,
+    "benign_steps": 1000,
+    "benign_surface_tuples": 62,
+    "in_policy_malicious_steps": 250,
+    "malicious_arg_key_sets": 18,
+    "malicious_destinations": 6,
+    "malicious_path_prefixes": 2,
+    "malicious_surface_tuples": 26
+  },
+  "jaccard": {
+    "arg_key_sets": 0.4,
+    "destinations": 0.46153846153846156,
+    "path_prefixes": 0.5,
+    "surface_tuples": 0.41935483870967744
+  },
+  "malicious_surface_tuple_unseen_fraction": 0.0,
+  "scope": "in_policy_malicious_steps_vs_all_benign_steps",
+  "split": "test",
+  "timestamp_utc": "2026-09-27T00:04:01.721241+00:00"
+}
